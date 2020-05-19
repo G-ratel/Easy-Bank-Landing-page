@@ -1,0 +1,400 @@
+@import url('https://fonts.google.com/specimen/Public+Sans');
+
+body{
+    font-family: Public Sans;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.container2 {
+    background: url(../img/bg-intro-desktop.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+    background-color: hsl(0, 0%, 98%); 
+}
+
+header {
+    background: white;
+    width: 100%;
+    position: absolute;
+}
+.header_content {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+.logo {
+    flex: 20%;
+    max-width: 20%;
+    padding: 20px 2px 10px 4px;
+}
+nav {
+    flex: 58%;
+    max-width: 58%;
+    display: inline-flex;
+}
+.invite {
+    flex: 20%;
+    max-width: 20%;
+}
+#toogle {
+    display: none;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;
+}
+#btn {
+    display: none;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;
+}
+#btn3 {
+    display: none;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;
+}
+#btn2 {
+    display: none;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;
+}
+.tactive {
+    display: none;
+    width: 100%;
+    text-align: right;
+    font-size: 30px;
+}
+nav ul{
+    margin: 0;
+    padding: 1rem;
+}
+nav ul li{
+    display: inline;
+    padding: 10px 25px;
+    margin: 0;
+}
+nav ul li a{
+    text-decoration:none;
+    color: hsl(233, 8%, 62%);
+}
+nav ul li a:hover{
+    color: hsl(233, 26%, 24%);
+}
+button {
+    padding: 10px 27px 10px 27px;
+    background-image: linear-gradient(to left, hsl(192, 70%, 51%), hsl(136, 65%, 51%)) ;
+    border: none;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+button a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.sub_one {
+    margin: auto;
+}
+.row_one {
+    width: 100%;
+}
+.row_one div{
+    float: left;
+}
+.row_one::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.plans {
+    width: 45%;
+    padding-top: 100px;
+}
+.famil {
+    display: none;
+}
+.fam {
+    width: 45%;
+    float: right;
+    padding-left: 70px;
+    max-width: 100%;
+    max-height: fit-content;
+}
+.fam img {
+    width: fit-content;
+}
+.plans h1 {
+    font-weight: 400;
+    font-size: 60px;
+    color: hsl(233, 26%, 24%);
+}
+p {
+    font-weight: 300;
+    font-size: 18px;
+    color: hsl(233, 8%, 62%);
+}
+.twin {
+    width: 100%;
+    background-color: hsl(220, 16%, 96%);
+    padding-top: 40px;
+    margin-top: -170px;
+}
+.sub_one, .two, .three {
+    width: 80%;
+}
+.two, .three, .footerall {
+    margin: auto;
+  }
+.choose {
+    width: 50%;
+  }
+h2 {
+    font-size: 50px;
+    font-weight: 400;
+  }
+  .two h4 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+.row_two, .row_three {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0;
+  }
+  .banking, .budgeting, .onboarding, .openapi {
+    flex: 22%;
+    max-width: 22%;
+    padding-right: 20px;
+  }
+  .currency, .restaurant, .plane, .confetti {
+    flex: 22%;
+    max-width: 22%;
+    padding-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pic img{
+    max-width: 100%;
+    max-height: fit-content;
+  }
+  .text {
+      background-color: white;
+      padding: 7px 7px 7px 7px;
+  }
+  .three h4 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .three a {
+    text-decoration:none;
+    color: hsl(233, 26%, 24%);
+}
+.three a:hover {
+    color: hsl(136, 65%, 51%);
+}
+ 
+footer {
+      background-color: hsl(233, 26%, 24%);
+      margin-top: 20px;
+  }
+  .footerall {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.a, .c {
+    flex: 25%;
+    max-width: 25%;
+}
+.c {
+    text-align: right;
+}
+.b {
+    flex: 50%;
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flogo, .ficon {
+    padding-top: 20px;
+  }
+.ficon {
+    padding-right: 40px;
+}
+.ficon a img:hover {
+    color: hsl(136, 65%, 51%);
+}
+.column {
+    flex: 45%;
+    max-width: 45%;
+    padding-top: 20px;
+}
+.column a {
+    text-decoration:none;
+    color: hsl(0, 0%, 98%);
+    line-height: 24px;
+}
+.column a:hover {
+    color: hsl(136, 65%, 51%);
+}
+
+@media (max-width: 1111px) {
+    nav ul li{
+        padding: 10px 15px;
+    }
+}
+@media (max-width: 893px) {
+    .header_content {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .footerall, .sub_one, .two, .three {
+        width: 90%;
+    }
+}
+@media (max-width: 797px) {
+    .banking, .budgeting, .onboarding, .openapi, .currency, .restaurant, .plane, .confetti {
+        flex: 44%;
+        max-width: 44%;
+        padding-right: 20px;
+    }
+    .currency, .restaurant, .plane, .confetti {
+        margin-bottom: 20px;
+    }
+    .container2 {
+        background: url(../img/bg-intro-mobile.svg);
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: auto auto;
+    }
+    nav ul li{
+        padding: 10px 5px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .a, .b, .c {
+        flex: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .choose {
+        width: 100%;
+        text-align: center;
+      }
+    .famil {
+        display: block;
+        max-width: 100%;
+        max-height: fit-content;
+    }
+    .famil img{
+        max-width: 100%;
+        max-height: fit-content;
+    }
+    .fam {
+        display: none;
+    }
+    .plans {
+        width: 95%;
+        padding-top: 10px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .twin {
+        margin-top: 0px;
+    }
+    nav {
+        flex: 52%;
+        max-width: 52%;
+    }
+    .invite, .logo {
+        flex: 22%;
+        max-width: 22%;
+    }
+}
+@media (max-width: 679px) {
+    h1, h2{
+        font-size: 34px;
+        text-align: center;
+    }
+    .invite {
+        display: none;
+    } 
+    nav {
+        flex: 68%;
+        max-width: 68%;
+    }
+    .invite, .logo {
+        flex: 29%;
+        max-width: 29%;
+    }
+}
+@media (max-width: 523px) {
+    #btn {
+        display: block;
+    }
+    #toogle {
+        display: block;
+    }
+    #toogle button{
+        background-image: none;
+        background-color: white;
+        outline: none;
+    }
+    .tactive {
+        display: none;
+        position: fixed; 
+        z-index: 1;
+        padding-top: 60px; 
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%; 
+        overflow: auto;
+        background-color: rgba(0,0,0,0.4);
+    }
+    .tactive-cont {
+        background-color: hsl(0, 0%, 98%);
+        margin: auto;
+        border: 1px solid #888;
+        width: 80%;
+      }
+    .nav {
+        display: none;
+    }
+    h1 {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    .banking, .budgeting, .onboarding, .openapi, .currency, .restaurant, .plane, .confetti, .column {
+        flex: 100%;
+        max-width: 100%;
+       text-align: center;
+       padding-right: 0px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .tactive-cont .span {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .tactive-cont .span li{
+       text-align: center;
+       display: block;
+       padding: 10px;
+       background-color: hsl(0, 0%, 98%);
+    }
+    .tactive-cont .span li a {
+        color: hsl(233, 26%, 24%);
+        font-size: 14px;
+        text-decoration: none;
+    }
+}
